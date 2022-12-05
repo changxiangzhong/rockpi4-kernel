@@ -1101,3 +1101,7 @@ source "arch/arm64/crypto/Kconfig"
 endif
 
 source "lib/Kconfig"
+
+menu "Chang's Kernel mod"
+source "drivers/hello/Kconfig"
+endmenu
